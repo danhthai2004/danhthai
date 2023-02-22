@@ -1,0 +1,41 @@
+.row{
+display: grid;
+grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.img{
+    width: 100%;
+}
+.row div{
+padding: 15px;
+}
+.row div img{
+    padding: 15px;
+}
+
+.menu div{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.right{
+    float: right;
+}
+
+.absolute1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    color: white;
+}
+.absolute2{
+    position: absolute;
+    top: 155px;
+    left: 120px;
+    color: white;
+}
+.intro{
+    margin: 30px;
+}
+.banner img{
+    width: 100%;
+}
