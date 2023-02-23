@@ -1,17 +1,20 @@
-.row{
+.row1{
 display: grid;
 grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
 }
 .img{
     width: 100%;
 }
-.row div{
-padding: 15px;
+.row1 div{
+    padding: 30px;
 }
-.row div img{
-    padding: 15px;
+.row2 div{
+    padding: 30px;
 }
-
 .menu div{
     display: inline;
     margin-left: 30px;
@@ -23,19 +26,19 @@ padding: 15px;
 
 .absolute1{
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 120px;
     color: white;
 }
 .absolute2{
     position: absolute;
-    top: 155px;
+    top: 185px;
     left: 120px;
     color: white;
 }
-.intro{
-    margin: 30px;
-}
 .banner img{
     width: 100%;
+}
+.intro{
+    margin-left: 30px;
 }
