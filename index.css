@@ -9,8 +9,8 @@ grid-template-columns: 33.33% 33.33% 33.33%;
 .img{
     width: 100%;
 }
-.anh {
-    padding: 10px 30px 30px 30px;
+.anh div img{
+    padding: 10px 30px 19px 30px;
 } 
 .footer div{
     padding: 30px;
