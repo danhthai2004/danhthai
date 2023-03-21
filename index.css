@@ -26,7 +26,8 @@
     margin: 0 40px 0 40px;
 }
 
-.footer.row p, h2 {
+.footer.row p,
+h2 {
     padding: 15px;
 }
 
@@ -35,8 +36,10 @@
     /* For tablets: */
     .banner img {
         width: 100% !important;
-    } 
+        display: none;
+    }
 }
+
 @media only screen and (min-width: 768px) {
 
     /* For desktop: */
@@ -50,7 +53,7 @@
     .absolute2 {
         position: absolute !important;
         color: white !important;
-        top: 265px!important;
-        left: 150px!important;
+        top: 265px !important;
+        left: 150px !important;
     }
 }
