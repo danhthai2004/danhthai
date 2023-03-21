@@ -19,6 +19,7 @@
 }
 
 .row img {
+    width: 100%;
     padding: 16px;
 }
 
@@ -30,30 +31,36 @@
 h2 {
     padding: 15px;
 }
+.banner img {
+    width: 100% !important;
+    display: none;
+}
 
 @media only screen and (min-width: 600px) {
 
     /* For tablets: */
-    .banner img {
-        width: 100% !important;
-        display: none;
-    }
+    
 }
 
 @media only screen and (min-width: 768px) {
-
+ 
     /* For desktop: */
     .absolute1 {
-        position: absolute !important;
-        color: white !important;
-        top: 220px !important;
-        left: 150px !important;
+        position: absolute;
+        color: white;
+        top: 220px;
+        left: 150px;
     }
 
     .absolute2 {
-        position: absolute !important;
-        color: white !important;
-        top: 265px !important;
-        left: 150px !important;
+        position: absolute ;
+        color: white;
+        top: 265px;
+        left: 150px;
     }
+    .banner img{
+        display: block;
+    }
+    
+
 }
