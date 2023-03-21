@@ -10,20 +10,6 @@
     margin: 0 65px 0 65px;
 }
 
-.absolute1 {
-    position: absolute;
-    color: white;
-    top: 220px;
-    left: 150px;
-}
-
-.absolute2 {
-    position: absolute;
-    color: white;
-    top: 265px;
-    left: 150px;
-}
-
 .text {
     margin-left: 70px;
 }
@@ -53,5 +39,17 @@ h2 {
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .absolute1 {
+        position: absolute;
+        color: white;
+        top: 220px;
+        left: 150px;
+    }
     
-}
+    .absolute2 {
+        position: absolute;
+        color: white;
+        top: 265px;
+        left: 150px;
+    }
+    }
