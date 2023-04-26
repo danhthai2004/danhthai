@@ -26,12 +26,18 @@
   padding: 15px;
 }
 
-.a {
+.footer img{
+  width: 75%;
+}
+.footer a{
   text-decoration: none;
-  color: black;
+  color: rgb(17, 17, 17);
 }
 .body{
   background-color: black;
+}
+.footer h5{
+  padding: 15px;
 }
 
 @media only screen and (min-width: 600px) {
