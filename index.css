@@ -2,23 +2,29 @@
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Ysabeau', sans-serif;
 }
-
-.notification-right {
-  float: right;
+.menu {
+  font-family: 'Work Sans', sans-serif;
 }
 
 .center {
   text-align: center;
+  font-family: 'Ysabeau', sans-serif;
 }
 
 .banner img {
   max-width: 100%;
-  vertical-align: middle;
+  vertical-align: middle; 
+  display: none !important;
+}
+.banner .center{
+  margin-top: 20px;
 }
 
 .row {
   margin: 0 20px 0 20px;
+  font-family: 'Ysabeau', sans-serif;
 }
 
 .row img {
@@ -33,11 +39,34 @@
   text-decoration: none;
   color: rgb(17, 17, 17);
 }
-.body{
-  background-color: black;
-}
 .footer h5{
   padding: 15px;
+}
+.back{
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.back a{
+  color: rgb(17, 17, 17) ;
+}
+.row a{
+  text-decoration: none;
+  color: rgb(17, 17, 17) ;
+}
+.more{
+  margin: 30px;
+}
+.more a{
+  border: 1px solid #0e0b0c;
+  padding: 8px;
+}
+.text {
+  margin-top: 30px;
+}
+.album {
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 @media only screen and (min-width: 600px) {
@@ -47,5 +76,11 @@
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-
+  .banner img {
+    display: block !important;
+  }
+  .d-flex{
+    position: absolute;
+    right: 20px;
+  }
 }
