@@ -33,7 +33,7 @@
 }
 
 .footer img{
-  width: 75%;
+  width: 40%;
 }
 .footer a{
   text-decoration: none;
@@ -83,4 +83,6 @@
     position: absolute;
     right: 20px;
   }
+  .footer img{
+    width: 75%;
 }
